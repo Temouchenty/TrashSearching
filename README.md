@@ -38,6 +38,5 @@ Config.TargetModels = {
 		},
 		distance = 2.0
 	  },
-	  ```
     
     Thank you for using my scripts!
