@@ -9,6 +9,7 @@ Working Dumpsterdiving script for QBcore. Script uses QB-Target.. Will not work 
 
 Paste this in qb-target Config.lua
 
+```
 Config.TargetModels = {
 	["refuel"] = {
 		models = {
@@ -37,5 +38,6 @@ Config.TargetModels = {
 		},
 		distance = 2.0
 	  },
+	  ```
     
     Thank you for using my scripts!
