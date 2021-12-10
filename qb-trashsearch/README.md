@@ -8,6 +8,7 @@ Working Dumpsterdiving script for QBcore. Script uses QB-Target.. Will not work 
 
 Paste this in qb-target Config.lua
 
+```
 Config.TargetModels = {
 	["refuel"] = {
 		models = {
