@@ -39,3 +39,5 @@ Config.TargetModels = {
 	  },
     
     Thank you for using my scripts!
+    
+    You can mess wiht the timer settings untll you can search dumpster again.. server.lua
