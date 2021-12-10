@@ -4,7 +4,8 @@ Creator: Doxy#3435
 
 Do not sell anywhere, free out for use
 
-Working Dumpsterdiving script for QBcore. Script uses QB-Target.. Will not work without qb-target
+Working Dumpsterdiving script for QBcore. Script uses QB-Target.. Will not work without qb-target qb-target can be found in the next link!
+https://github.com/BerkieBb/qb-target
 
 Paste this in qb-target Config.lua
 
