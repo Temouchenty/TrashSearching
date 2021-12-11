@@ -6,7 +6,7 @@ local canSearch = true
 
 RegisterNetEvent('qb-trashsearch:client:searchtrash', function()
     if canSearch then
-        local ped = GetPlayerPed(-1)
+        local ped = GetPlayerPed()
         local pos = GetEntityCoords(ped)
         local dumpsterFound = false
 
