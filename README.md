@@ -12,33 +12,27 @@ Paste this in qb-target Config.lua
 
 ```
 Config.TargetModels = {
-	["refuel"] = {
-		models = {
-			'prop_gas_pump_1d',
-			'prop_gas_pump_1a',
-			'prop_gas_pump_1b',
-			'prop_gas_pump_1c',
-			'prop_vintage_pump',
-			'prop_gas_pump_old2',
-			'prop_gas_pump_old3'
-		},
-		options = {
-			{
-			type = "event",
-			event = "LegacyFuel:client:jerrycan",
-			icon = "fas fa-burn",
-			label = "Buy jerrycan",
-			},
-			 {
-			type = 'event',
-			event = 'LegacyFuel:client:refueling',
-			icon = 'fas fa-gas-pump',
-			label = 'Refuel'
-			},
-	
-		},
-		distance = 2.0
-	  },
+["trashsearch"] = {
+        models = {
+			-1096777189,--normal small
+			666561306,--big
+			1437508529,--small circle
+			-1426008804,--small open circle
+			-228596739,--open small circle
+			161465839,--werid blue small circle
+			651101403,--open medium circle
+
+        },
+        options = {
+            {
+                type = "client",
+                event = "qb-trashsearch:client:searchtrash",
+                icon = "fas fa-pencil-ruler",
+                label = "Search Trash",
+            },
+        },
+        distance = 2.1
+    },
     
     Thank you for using my scripts!
 
